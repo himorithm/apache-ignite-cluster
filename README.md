@@ -1,6 +1,19 @@
 # Apache Ignite Cluster with Spring Boot
-This is sample application to demonstrate how to run Apache Ignite Cluster using Spring Boot.
+
+## Summary 
+This is simple application to demonstrate how to run Apache Ignite Cluster using Spring Boot.
 The Apache Ignite Cluster configurations are done using Java.
+
+* Standalone Ignite Cluster embeded with Spring Boot
+* Native Persistance Support Enabled 
+* Ignite Lifecycle Events Captured ( ON NODE STARTED , ON NODE DOWN)
+* Auto Start Cluster once Spring Boot application is  Started.
+* Auto Activate Cluster after Start.
+* Configure Ignite properties using Spring Boot Application.properties..
+* H2 Database Enable for SQL Indexing. [H2 Issue Workarround](https://issues.apache.org/jira/browse/IGNITE-8197)
+* Dev Tools Enabled for aid.
+* Lombok Plugin Required for IDE support. 
+
 
 # Getting Started
 Just Start ApacheIgniteClusterApplication 
@@ -21,5 +34,7 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
-Regards
+Regards,
+
 Himanshu Ahire
+
