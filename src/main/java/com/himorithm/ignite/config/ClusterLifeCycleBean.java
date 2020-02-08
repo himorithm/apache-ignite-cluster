@@ -22,7 +22,7 @@ public class ClusterLifeCycleBean implements LifecycleBean {
                 log.info("**************** Ignite {} Started ****************", clusterName);
                 break;
             case AFTER_NODE_STOP:
-                log.info("S**************** topping Ignite {} ****************", clusterName);
+                log.info("**************** Stopping Ignite {} ****************", clusterName);
                 break;
             default:
         }
