@@ -11,7 +11,6 @@ The Apache Ignite Cluster configurations are done using Java.
 * Auto Activate Cluster after Start.
 * Configure Ignite properties using Spring Boot Application.properties..
 * H2 Database Enable for SQL Indexing. [H2 Issue Workarround](https://issues.apache.org/jira/browse/IGNITE-8197)
-* Dev Tools Enabled for aid.
 * Lombok Plugin Required for IDE support. 
 
 
